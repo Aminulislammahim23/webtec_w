@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(240, 244, 242);
 }
 
 h1{
@@ -7,5 +7,39 @@ h1{
 }
 
 fieldset{
-    background-color: bisque;
+    background-color: rgb(195, 192, 189);
+}
+
+.contact{
+    background-color: aliceblue;
+}
+
+.contact .title{
+    font-weight: bold;
+}
+
+.donorInfo{
+    background-color: azure;
+}
+
+.donorInfo .title{
+    font-weight: bold;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contactSection{
+    margin-left: 20px;
+
+}
+
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
