@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../day3/registration.css" 
+</head>
+<body>
+    <fieldset>
+    
+    <h3> * - Denotes Required Information</h3>
+    <h1> Donor Information </h1>
+    <form action="submit" method="post">
+        <label for="firstName">First Name :</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name :</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="companyName">Company :</label>
+        <input type="text" id="companyName" name="companyName" required><br><br>
+
+        <label for="address1">Address 1 :</label>
+        <input type="text" id="address1" name="address1" required><br><br>
+
+        <label for="address2">Address 2 :</label>
+        <input type="text" id="address2" name="address2" required><br><br>
+
+        <label for="city">City :</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="state">State* </label>
+<select id="state" name="state">
+  <option value="us">United States</option>
+  <option value="ca">Canada</option>
+  <option value="uk">United Kingdom</option>
+  <option value="au">Australia</option>
+</select>
+
+<label for="zip">Zip Code*</label>
+        <input type="text" id="zip" name="zip" required><br><br>
+
+
+        <label for="country">Country*</label>
+<select id="country" name="country">
+  <option value="us">United States</option>
+  <option value="ca">Canada</option>
+  <option value="uk">United Kingdom</option>
+  <option value="au">Australia</option>
+</select><br><br>
+        
+        <label for="phone">Phone :</label>
+        <input type="text" id="phone" name="phone" required><br><br>
+
+        <label for="fax">Fax :</label>
+        <input type="text" id="fax" name="fax" required><br><br>
+
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="amonut">Donation Amount*</label>
+        <input type="radio" id="none" name="amount" value="0">
+        <label for="html">None</label>
+        <input type="radio" id="$50" name="amount" value="50">
+        <label for="$50">$50</label>
+        <input type="radio" id="$75" name="amount" value="75">
+        <label for="$75">$75</label>
+        <input type="radio" id="100" name="amount" value="100">
+        <label for="$75">$100</label>
+        <input type="radio" id="250" name="amount" value="250">
+        <label for="250">$250</label>
+        <input type="radio" id="other" name="amount" value="other">
+        <label for="other">Other</label><br>
+
+        <label>(Check a button or type in your amount)</label>
+        <label for="amonut">Other Amonut $ </label>
+        <input type="text" id="amonut" name="amonut" required><br><br>
+
+ <h1> Honorarium and Memorial Donation Information </h1> 
+        <label>I would like to make this donation</label>
+        <input type="radio" id="donor" name="donor" value="inMemoryof">
+        <label for="other">To Honor</label>
+        <input type="radio" id="donor" name="donor" value="toHonor">
+        <label for="other">In Memory of</label><br>
+
+        <label for="Name">Name :</label>
+        <input type="text" id="Name" name="Name" required><br><br>
+        <label for="donation">Acknowledge Donation to </label>
+        <input type="text" id="donation" name="donation" required><br><br>
+        <label for="Address">Name :</label>
+        <input type="text" id="address" name="address" required><br><br>
+        <label for="city">City </label>
+        <input type="text" id="city" name="city" required><br><br>
+        <label for="state">State </label>
+        <select id="state" name="state">
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="au">Australia</option>
+        </select>
+        <label for="zip">Zip </label>
+        <input type="text" id="zip" name="zip" required><br><br>
+
+        <h1>Additional Information</h1>
+        <p>Please enter your name, company or organization as you would like it to appear in our publications:</p><br>
+        <label for="name">Name </label>
+        <input type="text" id="name" name="name" required><br>
+
+        <input type="checkbox" id="ck1" name="ck1" value="1">
+        <label for="ck1"> I would like my gift to remain anonymous.</label><br>
+        <input type="checkbox" id="ck2" name="ck2" value="2">
+        <label for="ck2"> My employer offers a matching gift program. I will mail the matching gift form.</label><br>
+        <input type="checkbox" id="ck3" name="ck3" value="3"
+        <label for="ck3">Please save the cost of acknowleding this gift by not mailing a thank you letter.</label>
+        <input type="submit" value="reset">
+        <input type="submit" value="continue">
+
+    </form>
+    </fieldset>
+</body>
+<footer>
+
+</footer>
+</html>
